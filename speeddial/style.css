@@ -1,0 +1,105 @@
+body {
+    background-color: #282C34;
+    background-image: url("../img/Wallpaper.jpg");
+    background-size: cover;
+    color-scheme: dark;
+}
+
+.search-form {
+	margin-top: 100px;
+}
+
+.SpeedDial {
+    text-align: center;
+    margin-top:100px;
+	margin-bottom: 100px;
+    margin: auto;
+}
+
+.Row1{margin-top: 100px;}
+.Row2{margin-top: 30px}
+.RowCustom{margin-top: 30px}
+
+#bookmarksContainer div,
+img {
+    box-shadow: 10px 10px 5px #191919;
+    border-radius: 10%;
+    width: 8%;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+#bookmarksContainer div{
+    padding-bottom: 4%;
+    width: 6.9%;
+    height: 0;
+}
+
+#bookmarksContainer div:hover,
+img:hover {
+  transform: scale(1.2);
+}
+
+#bookmarksContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: auto;
+}
+
+.bookmarkWindow {
+    margin-top: 150px
+}
+
+a { text-decoration:none }
+
+.search-form {
+    border: 1px solid #aa3931;
+    border-radius: 3px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0.25rem;
+    padding-left: 0.75rem;
+    background-color: #242731;
+}
+
+.search-input {
+    background-color: #242731;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: "Manrope", Helvetica, sans-serif;
+}
+
+.submit-button {
+    border-radius: 20px;
+    border: none;
+    color: #f44336;
+    background-color: #242731;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    border: none;
+    background-color: #f44336;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-icon { fill: #fff; }
+.submit-icon:hover { fill: #000; }
